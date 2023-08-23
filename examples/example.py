@@ -123,9 +123,9 @@ class SmaCross(bt.SignalStrategy):
 
 
 # If MetaTrader runs locally
-# host = "localhost"
+host = "localhost"
 # If Metatrader runs at differnt address
-host = "192.168.56.124"
+# host = "192.168.56.124"
 
 store = MTraderStore(host=host, debug=False, datatimeout=10)
 
@@ -139,7 +139,7 @@ cerebro.setbroker(broker)
 start_date = datetime.now() - timedelta(hours=60)
 
 data = store.getdata(
-    dataname="EURUSD",
+    dataname="XAUUSD.",
     timeframe=bt.TimeFrame.Minutes,
     fromdate=start_date,
     compression=1,
