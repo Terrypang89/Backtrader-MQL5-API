@@ -1,0 +1,158 @@
+LIVE :, Data0, 0013, 738896.895139, 2024-01-11T21:29:00.000000, 47075.438000, 47087.943000, 47057.338000, 47076.838000,     69, 0
+LIVE :, Data0, 0014, 738896.895833, 2024-01-11T21:30:00.000000, 47076.838000, 47097.238000, 46955.679000, 46976.038000,    125, 0
+LIVE :, Data0, 0015, 738896.896528, 2024-01-11T21:31:00.000000, 46976.038000, 47003.438000, 46915.238000, 46954.538000,    121, 0
+api data = {'Symbol': 'BTCUSD', 'Exchange': 'BITSTAMP', 'Period': '1', 'Alert': 'SUPER_SELL', 'Open': '46981', 'High': '47016', 'Low': '46942', 'Close': '46970', 'Volume': '28.61388768', 'Time': '11:32:05', 'Timenow': '19:32:05 (Input: GMT+8)'}
+on_data_received data = {'Symbol': 'BTCUSD', 'Exchange': 'BITSTAMP', 'Period': '1', 'Alert': 'SUPER_SELL', 'Open': '46981', 'High': '47016', 'Low': '46942', 'Close': '46970', 'Volume': '28.61388768', 'Time': '11:32:05', 'Timenow': '19:32:05 (Input: GMT+8)'}
+
+subscribers = defaultdict(<class 'list'>, {'api-rev': [<bound method SmaCross.process_data_received of <__main__.SmaCross object at 0x7f170c05ac70>>]})
+api data = {'Symbol': 'BTCUSD', 'Exchange': 'BITSTAMP', 'Period': '1', 'Alert': 'SUPER_SELL', 'Open': '46981', 'High': '47016', 'Low': '46942', 'Close': '46970', 'Volume': '28.61388768', 'Time': '11:32:05', 'Timenow': '19:32:05 (Input: GMT+8)'}
+on_data_received data = {'Symbol': 'BTCUSD', 'Exchange': 'BITSTAMP', 'Period': '1', 'Alert': 'SUPER_SELL', 'Open': '46981', 'High': '47016', 'Low': '46942', 'Close': '46970', 'Volume': '28.61388768', 'Time': '11:32:05', 'Timenow': '19:32:05 (Input: GMT+8)'}
+
+subscribers = defaultdict(<class 'list'>, {'api-rev': [<bound method SmaCross.process_data_received of <__main__.SmaCross object at 0x7f170c05ac70>>]})
+api data = {'Symbol': 'BTCUSD', 'Exchange': 'BITSTAMP', 'Period': '1', 'Alert': 'SUPER_SELL', 'Open': '46981', 'High': '47016', 'Low': '46942', 'Close': '46970', 'Volume': '28.61388768', 'Time': '11:32:05', 'Timenow': '19:32:05 (Input: GMT+8)'}
+on_data_received data = {'Symbol': 'BTCUSD', 'Exchange': 'BITSTAMP', 'Period': '1', 'Alert': 'SUPER_SELL', 'Open': '46981', 'High': '47016', 'Low': '46942', 'Close': '46970', 'Volume': '28.61388768', 'Time': '11:32:05', 'Timenow': '19:32:05 (Input: GMT+8)'}
+
+subscribers = defaultdict(<class 'list'>, {'api-rev': [<bound method SmaCross.process_data_received of <__main__.SmaCross object at 0x7f170c05ac70>>]})
+api data = {'Symbol': 'BTCUSD', 'Exchange': 'BITSTAMP', 'Period': '1', 'Alert': 'SUPER_SELL', 'Open': '46981', 'High': '47016', 'Low': '46942', 'Close': '46970', 'Volume': '28.61388768', 'Time': '11:32:05', 'Timenow': '19:32:05 (Input: GMT+8)'}
+on_data_received data = {'Symbol': 'BTCUSD', 'Exchange': 'BITSTAMP', 'Period': '1', 'Alert': 'SUPER_SELL', 'Open': '46981', 'High': '47016', 'Low': '46942', 'Close': '46970', 'Volume': '28.61388768', 'Time': '11:32:05', 'Timenow': '19:32:05 (Input: GMT+8)'}
+
+subscribers = defaultdict(<class 'list'>, {'api-rev': [<bound method SmaCross.process_data_received of <__main__.SmaCross object at 0x7f170c05ac70>>]})
+LIVE :, Data0, 0016, 738896.897222, 2024-01-11T21:32:00.000000, 46954.538000, 46956.938000, 46910.337000, 46923.438000,    104, 0
+UPDATED data = {'Symbol': 'BTCUSD', 'Exchange': 'BITSTAMP', 'Period': '1', 'Alert': 'SUPER_SELL', 'Open': '46981', 'High': '47016', 'Low': '46942', 'Close': '46970', 'Volume': '28.61388768', 'Time': '11:32:05', 'Timenow': '19:32:05 (Input: GMT+8)'}
+PRECHECK datastatus = 1, position = --- Position Begin
+- Size: 0
+- Price: 0.0
+- Price orig: 0.0
+- Closed: 0
+- Opened: 0
+- Adjbase: None
+--- Position End, orderid = [], order = None, usebracket = True, donorcounter = False, valid = True, stake = 0.1, exectype=0
+CHECKING orderid [], datastatus = 1, position = --- Position Begin
+- Size: 0
+- Price: 0.0
+- Price orig: 0.0
+- Closed: 0
+- Opened: 0
+- Adjbase: None
+--- Position End
+=============================================
+USING SELL BRACKET with price 46923.438, stopprice 46933.438, limit price 46913.438
+-------------------------------------------------- ORDER BEGIN notify_order 2024-01-11 19:34:00.032754
+Ref: 1
+OrdType: 1
+OrdType: Sell
+Status: 1
+Status: Submitted
+Size: -0.1
+Price: 46923.438
+Price Limit: None
+TrailAmount: None
+TrailPercent: None
+ExecType: 0
+ExecType: Market
+CommInfo: <backtrader.comminfo.CommInfoBase object at 0x7f173d7dc400>
+End of Session: 738896.9999999999
+Info: AutoOrderedDict()
+Broker: <backtradermql5.mt5broker.MTraderBroker object at 0x7f170e0a89a0>
+Alive: True
+-------------------------------------------------- ORDER END
+-------------------------------------------------- ORDER BEGIN notify_order 2024-01-11 19:34:00.032849
+Ref: 2
+OrdType: 0
+OrdType: Buy
+Status: 1
+Status: Submitted
+Size: 0.1
+Price: 46933.438
+Price Limit: None
+TrailAmount: None
+TrailPercent: None
+ExecType: 3
+ExecType: Stop
+CommInfo: <backtrader.comminfo.CommInfoBase object at 0x7f173d7dc400>
+End of Session: 738896.9999999999
+Info: AutoOrderedDict()
+Broker: <backtradermql5.mt5broker.MTraderBroker object at 0x7f170e0a89a0>
+Alive: True
+-------------------------------------------------- ORDER END
+-------------------------------------------------- ORDER BEGIN notify_order 2024-01-11 19:34:00.032899
+Ref: 3
+OrdType: 0
+OrdType: Buy
+Status: 1
+Status: Submitted
+Size: 0.1
+Price: 46913.438
+Price Limit: None
+TrailAmount: None
+TrailPercent: None
+ExecType: 2
+ExecType: Limit
+CommInfo: <backtrader.comminfo.CommInfoBase object at 0x7f173d7dc400>
+End of Session: 738896.9999999999
+Info: AutoOrderedDict()
+Broker: <backtradermql5.mt5broker.MTraderBroker object at 0x7f170e0a89a0>
+Alive: True
+-------------------------------------------------- ORDER END
+-------------------------------------------------- ORDER BEGIN notify_order 2024-01-11 19:34:00.032946
+Ref: 1
+OrdType: 1
+OrdType: Sell
+Status: 1
+Status: Submitted
+Size: -0.1
+Price: 46923.438
+Price Limit: None
+TrailAmount: None
+TrailPercent: None
+ExecType: 0
+ExecType: Market
+CommInfo: <backtrader.comminfo.CommInfoBase object at 0x7f173d7dc400>
+End of Session: 738896.9999999999
+Info: AutoOrderedDict()
+Broker: <backtradermql5.mt5broker.MTraderBroker object at 0x7f170e0a89a0>
+Alive: True
+-------------------------------------------------- ORDER END
+-------------------------------------------------- ORDER BEGIN notify_order 2024-01-11 19:34:00.032995
+Ref: 1
+OrdType: 1
+OrdType: Sell
+Status: 4
+Status: Completed
+Size: -0.1
+Price: 46923.438
+Price Limit: None
+TrailAmount: None
+TrailPercent: None
+ExecType: 0
+ExecType: Market
+CommInfo: <backtrader.comminfo.CommInfoBase object at 0x7f173d7dc400>
+End of Session: 738896.9999999999
+Info: AutoOrderedDict()
+Broker: <backtradermql5.mt5broker.MTraderBroker object at 0x7f170e0a89a0>
+Alive: False
+-------------------------------------------------- ORDER END
+-------------------------------------------------- TRADE BEGIN notify_trade 2024-01-11 19:34:00.033042
+ref:1
+data:<backtradermql5.mt5data.MTraderData object at 0x7f170e0a88b0>
+tradeid:0
+size:-0.1
+price:46921.283
+value:-4692.1283
+commission:0.0
+pnl:0.0
+pnlcomm:0.0
+justopened:True
+isopen:True
+isclosed:False
+baropen:17
+dtopen:738896.8979166667
+barclose:0
+dtclose:0.0
+barlen:0
+historyon:False
+history:[]
+status:1
+-------------------------------------------------- TRADE END
+LIVE :, Data0, 0017, 738896.897917, 2024-01-11T21:33:00.000000, 46923.438000, 46975.338000, 46920.738000, 46965.110000,     89, 0
+LIVE :, Data0, 0018, 738896.898611, 2024-01-11T21:34:00.000000, 46967.188000, 46968.238000, 46925.438000, 46926.538000,     59, 0
